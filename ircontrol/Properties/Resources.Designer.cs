@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ircontrol.Properties {
+namespace IRControl.Properties {
     using System;
     
     
