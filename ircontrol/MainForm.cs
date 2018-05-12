@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.IO.Ports; 
-using System.Xml;
+using System.IO.Ports;
 
 namespace IRControl
 {
@@ -47,75 +46,54 @@ namespace IRControl
         }
 
         private void BtnCntClick(object sender, EventArgs e)
-        {/*
-            if (_running)
+        {
+            if (comPort.IsOpen)
             {
                 comPort.Close();
-                _running = false;
+                btn_update.Enabled = true;
+                cbPorts.Enabled = true;
                 btnCnt.Text = "Connect";
-                tbEvent.Text = tbEvent.Text + "\r\n CNX Disconected!!!";
-                tbEvent.SelectionStart = tbEvent.Text.Length;
-                tbEvent.ScrollToCaret();
             }
             else
             {
-                if (_configfile)
+                try
                 {
-                    try
-                    {
-                        comPort.PortName = cbPorts.SelectedItem.ToString();
-                        comPort.Open();
-                        btnCnt.Text = "Stop";
-                        _running = true;
-                        this.WindowState = FormWindowState.Minimized;
-                        tbEvent.Text = tbEvent.Text + "\r\n CNX Conected!!!";
-                        tbEvent.SelectionStart = tbEvent.Text.Length;
-                        tbEvent.ScrollToCaret();
-                    }
-                    catch
-                    {
-                        MessageBox.Show("CNX error");
-                        tbEvent.Text = tbEvent.Text + "\r\n CNX error";
-                        tbEvent.SelectionStart = tbEvent.Text.Length;
-                        tbEvent.ScrollToCaret();
-                        _running = false;
-                    }
-
+                    comPort.PortName = cbPorts.SelectedItem.ToString();
+                    comPort.Open();
+                    btnCnt.Text = "Stop";
+                    btn_update.Enabled = false;
+                    cbPorts.Enabled = false;
+                    WindowState = FormWindowState.Minimized;
                 }
-                else
+                catch
                 {
-                    MessageBox.Show("Load XML");
-                    tbEvent.Text = tbEvent.Text + "\r\n Load XML";
-                    tbEvent.SelectionStart = tbEvent.Text.Length;
-                    tbEvent.ScrollToCaret();
-                    btn_openxml.PerformClick();
-                    _running = false;
+                    MessageBox.Show("CNX error");
                 }
-            }*/
+            }
         }
 
         private void TrayIconDoubleClick(object sender, EventArgs e)
         {
-            this.Show();
-            this.WindowState = FormWindowState.Normal;
-            this.Activate();
+            Show();
+            WindowState = FormWindowState.Normal;
+            Activate();
             trayicon.Visible = false;
         }
 
         private void FormMainResize(object sender, EventArgs e)
         {
-            if (this.WindowState != FormWindowState.Minimized) return;
+            if (WindowState != FormWindowState.Minimized) return;
 
             trayicon.Visible = true;
-            this.Visible = false;
+            Visible = false;
             trayicon.ShowBalloonTip(8);
         }
 
         private void OpenToolStripMenuItemClick(object sender, EventArgs e)
         {
-            this.Show();
-            this.WindowState = FormWindowState.Normal;
-            this.Activate();
+            Show();
+            WindowState = FormWindowState.Normal;
+            Activate();
             trayicon.Visible = false;
         }
 

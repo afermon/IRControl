@@ -116,6 +116,7 @@
             this.tbEvent.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.tbEvent.Size = new System.Drawing.Size(568, 163);
             this.tbEvent.TabIndex = 10000;
+            this.tbEvent.Text = "Arduino IR Control";
             // 
             // btnCnt
             // 

@@ -12,8 +12,6 @@ namespace IRControl
     {
         private static IrControlManager _instance;
         private static readonly Dictionary<string, IrCode> IrCodes = new Dictionary<string, IrCode>();
-        private bool _configfile = false;
-        private bool _running = false;
         private TextBox _tbOut;
 
         public static IrControlManager GetInstance()
@@ -23,7 +21,7 @@ namespace IRControl
 
         public string[] GetPorts()
         {
-            string[] ports = null;
+            string[] ports;
             try
             {
                 ports = SerialPort.GetPortNames();
@@ -43,8 +41,11 @@ namespace IRControl
 
         public void ProcessCode(string hexCode)
         {
+            AddLog("Received " + hexCode);
             if (IrCodes.ContainsKey(hexCode))
                 VirtualKeySend(IrCodes[hexCode].Command);
+            else
+             AddLog("Code " + hexCode + " not found.");
         }
 
         public void LoadIrCodes(string irControlConfig)
@@ -246,13 +247,13 @@ namespace IRControl
                 case "XBUTTON1": inputSimulator.Keyboard.KeyPress(VirtualKeyCode.XBUTTON1); break;
                 case "XBUTTON2": inputSimulator.Keyboard.KeyPress(VirtualKeyCode.XBUTTON2); break;
                 case "ZOOM": inputSimulator.Keyboard.KeyPress(VirtualKeyCode.ZOOM); break;
-                default: break;
             }
+            AddLog("Sent " + command + " keys.");
         }
 
         public void AddLog(string log)
         {
-            _tbOut?.AppendText("\r\n" + log);
+            _tbOut?.AppendText("\r\n> " + log);
         }
     }
 }
