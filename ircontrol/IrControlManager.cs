@@ -252,7 +252,7 @@ namespace IRControl
 
         public void AddLog(string log)
         {
-            _tbOut.AppendText("\r\n" + log);
+            _tbOut?.AppendText("\r\n" + log);
         }
     }
 }
