@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.IO.Ports;
 using System.Windows.Forms;
@@ -41,30 +42,37 @@ namespace IRControl
 
         public void ProcessCode(string hexCode)
         {
-            AddLog("Received " + hexCode);
-            if (IrCodes.ContainsKey(hexCode))
-                VirtualKeySend(IrCodes[hexCode].Command);
+            var hex = hexCode.Replace("\r\n", "").Replace("\r", "").Replace("\n", "").Trim();
+            if (IrCodes.ContainsKey(hex))
+                VirtualKeySend(IrCodes[hex].Command);
             else
-             AddLog("Code " + hexCode + " not found.");
+             AddLog("Code " + hex + " not found.");
         }
 
         public void LoadIrCodes(string irControlConfig)
         {
-            IrCodes.Clear();
+            try
+            {
+                IrCodes.Clear();
 
-            if (irControlConfig == null) return;
+                if (irControlConfig == null) return;
 
-            var xmlSerializer = new XmlSerializer(typeof(List<IrCode>));
+                var xmlSerializer = new XmlSerializer(typeof(List<IrCode>));
 
-            List<IrCode> lstIrCodes;
+                List<IrCode> lstIrCodes;
 
-            using (var fileStream = new FileStream(irControlConfig, FileMode.Open))
-                lstIrCodes = (List<IrCode>)xmlSerializer.Deserialize(fileStream);
+                using (var fileStream = new FileStream(irControlConfig, FileMode.Open))
+                    lstIrCodes = (List<IrCode>)xmlSerializer.Deserialize(fileStream);
 
-            foreach (var irCode in lstIrCodes)
-                IrCodes.Add(irCode.HexCode, irCode);
+                foreach (var irCode in lstIrCodes)
+                    IrCodes.Add(irCode.HexCode, irCode);
 
-            AddLog(IrCodes.Count + " Codes loaded.");
+                AddLog(IrCodes.Count + " Codes loaded.");
+            }
+            catch (Exception e)
+            {
+                AddLog("Error while loadding the codes. Ex:" + e.Message);
+            }
         }
 
         public void VirtualKeySend(string command)

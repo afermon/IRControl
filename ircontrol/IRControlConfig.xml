@@ -1,525 +1,525 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ArrayOfIrCode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <IrCode>
-    <HexCode>CLOSE</HexCode><Command></Command>
+  <!--<IrCode>
+   <Command>CLOSE</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>ACCEPT</HexCode><Command></Command>
+   <Command>ACCEPT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>ADD</HexCode><Command></Command>
+   <Command>ADD</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>APPS</HexCode><Command></Command>
+   <Command>APPS</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>ATTN</HexCode><Command></Command>
+   <Command>ATTN</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>BACK</HexCode><Command></Command>
+   <Command>BACK</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>BROWSER_BACK</HexCode><Command></Command>
+   <Command>BROWSER_BACK</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>BROWSER_FAVORITES</HexCode><Command></Command>
+   <Command>BROWSER_FAVORITES</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>BROWSER_FORWARD</HexCode><Command></Command>
+   <Command>BROWSER_FORWARD</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>BROWSER_HOME</HexCode><Command></Command>
+   <Command>BROWSER_HOME</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>BROWSER_REFRESH</HexCode><Command></Command>
+   <Command>BROWSER_REFRESH</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>BROWSER_SEARCH</HexCode><Command></Command>
+   <Command>BROWSER_SEARCH</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>BROWSER_STOP</HexCode><Command></Command>
+   <Command>BROWSER_STOP</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>CANCEL</HexCode><Command></Command>
+   <Command>CANCEL</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>CAPITAL</HexCode><Command></Command>
+   <Command>CAPITAL</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>CLEAR</HexCode><Command></Command>
+   <Command>CLEAR</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>CONTROL</HexCode><Command></Command>
+   <Command>CONTROL</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>CONVERT</HexCode><Command></Command>
+   <Command>CONVERT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>CRSEL</HexCode><Command></Command>
+   <Command>CRSEL</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>DECIMAL</HexCode><Command></Command>
+   <Command>DECIMAL</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>DELETE</HexCode><Command></Command>
+   <Command>DELETE</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>DIVIDE</HexCode><Command></Command>
+   <Command>DIVIDE</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>DOWN</HexCode><Command></Command>
+   <Command>DOWN</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>END</HexCode><Command></Command>
+   <Command>END</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>EREOF</HexCode><Command></Command>
+   <Command>EREOF</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>ESCAPE</HexCode><Command></Command>
+   <Command>ESCAPE</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>EXECUTE</HexCode><Command></Command>
+   <Command>EXECUTE</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>EXSEL</HexCode><Command></Command>
+   <Command>EXSEL</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F1</HexCode><Command></Command>
+   <Command>F1</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F10</HexCode><Command></Command>
+   <Command>F10</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F11</HexCode><Command></Command>
+   <Command>F11</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F12</HexCode><Command></Command>
+   <Command>F12</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F13</HexCode><Command></Command>
+   <Command>F13</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F14</HexCode><Command></Command>
+   <Command>F14</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F15</HexCode><Command></Command>
+   <Command>F15</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F16</HexCode><Command></Command>
+   <Command>F16</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F17</HexCode><Command></Command>
+   <Command>F17</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F18</HexCode><Command></Command>
+   <Command>F18</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F19</HexCode><Command></Command>
+   <Command>F19</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F2</HexCode><Command></Command>
+   <Command>F2</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F20</HexCode><Command></Command>
+   <Command>F20</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F21</HexCode><Command></Command>
+   <Command>F21</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F22</HexCode><Command></Command>
+   <Command>F22</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F23</HexCode><Command></Command>
+   <Command>F23</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F24</HexCode><Command></Command>
+   <Command>F24</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F3</HexCode><Command></Command>
+   <Command>F3</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F4</HexCode><Command></Command>
+   <Command>F4</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F5</HexCode><Command></Command>
+   <Command>F5</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F6</HexCode><Command></Command>
+   <Command>F6</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F7</HexCode><Command></Command>
+   <Command>F7</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F8</HexCode><Command></Command>
+   <Command>F8</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>F9</HexCode><Command></Command>
+   <Command>F9</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>FINAL</HexCode><Command></Command>
+   <Command>FINAL</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>HANGEUL</HexCode><Command></Command>
+   <Command>HANGEUL</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>HANGUL</HexCode><Command></Command>
+   <Command>HANGUL</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>HANJA</HexCode><Command></Command>
+   <Command>HANJA</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>HELP</HexCode><Command></Command>
+   <Command>HELP</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>HOME</HexCode><Command></Command>
+   <Command>HOME</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>INSERT</HexCode><Command></Command>
+   <Command>INSERT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>JUNJA</HexCode><Command></Command>
+   <Command>JUNJA</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>KANA</HexCode><Command></Command>
+   <Command>KANA</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>KANJI</HexCode><Command></Command>
+   <Command>KANJI</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>LAUNCH_APP1</HexCode><Command></Command>
+   <Command>LAUNCH_APP1</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>LAUNCH_APP2</HexCode><Command></Command>
+   <Command>LAUNCH_APP2</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>LAUNCH_MAIL</HexCode><Command></Command>
+   <Command>LAUNCH_MAIL</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>LAUNCH_MEDIA_SELECT</HexCode><Command></Command>
+   <Command>LAUNCH_MEDIA_SELECT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>LBUTTON</HexCode><Command></Command>
+   <Command>LBUTTON</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>LCONTROL</HexCode><Command></Command>
+   <Command>LCONTROL</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>LEFT</HexCode><Command></Command>
+   <Command>LEFT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>LMENU</HexCode><Command></Command>
+   <Command>LMENU</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>LSHIFT</HexCode><Command></Command>
+   <Command>LSHIFT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>LWIN</HexCode><Command></Command>
+   <Command>LWIN</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>MBUTTON</HexCode><Command></Command>
+   <Command>MBUTTON</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>MEDIA_NEXT_TRACK</HexCode><Command></Command>
+   <Command>MEDIA_NEXT_TRACK</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>MEDIA_PLAY_PAUSE</HexCode><Command></Command>
+   <Command>MEDIA_PLAY_PAUSE</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>MEDIA_PREV_TRACK</HexCode><Command></Command>
+   <Command>MEDIA_PREV_TRACK</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>MEDIA_STOP</HexCode><Command></Command>
+   <Command>MEDIA_STOP</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>MENU</HexCode><Command></Command>
+   <Command>MENU</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>MODECHANGE</HexCode><Command></Command>
+   <Command>MODECHANGE</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>MULTIPLY</HexCode><Command></Command>
+   <Command>MULTIPLY</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NEXT</HexCode><Command></Command>
+   <Command>NEXT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NONAME</HexCode><Command></Command>
+   <Command>NONAME</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NONCONVERT</HexCode><Command></Command>
+   <Command>NONCONVERT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NUMLOCK</HexCode><Command></Command>
+   <Command>NUMLOCK</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NUMPAD0</HexCode><Command></Command>
+   <Command>NUMPAD0</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NUMPAD1</HexCode><Command></Command>
+   <Command>NUMPAD1</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NUMPAD2</HexCode><Command></Command>
+   <Command>NUMPAD2</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NUMPAD3</HexCode><Command></Command>
+   <Command>NUMPAD3</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NUMPAD4</HexCode><Command></Command>
+   <Command>NUMPAD4</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NUMPAD5</HexCode><Command></Command>
+   <Command>NUMPAD5</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NUMPAD6</HexCode><Command></Command>
+   <Command>NUMPAD6</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NUMPAD7</HexCode><Command></Command>
+   <Command>NUMPAD7</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NUMPAD8</HexCode><Command></Command>
+   <Command>NUMPAD8</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>NUMPAD9</HexCode><Command></Command>
+   <Command>NUMPAD9</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_1</HexCode><Command></Command>
+   <Command>OEM_1</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_102</HexCode><Command></Command>
+   <Command>OEM_102</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_2</HexCode><Command></Command>
+   <Command>OEM_2</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_3</HexCode><Command></Command>
+   <Command>OEM_3</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_4</HexCode><Command></Command>
+   <Command>OEM_4</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_5</HexCode><Command></Command>
+   <Command>OEM_5</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_6</HexCode><Command></Command>
+   <Command>OEM_6</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_7</HexCode><Command></Command>
+   <Command>OEM_7</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_8</HexCode><Command></Command>
+   <Command>OEM_8</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_CLEAR</HexCode><Command></Command>
+   <Command>OEM_CLEAR</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_COMMA</HexCode><Command></Command>
+   <Command>OEM_COMMA</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_MINUS</HexCode><Command></Command>
+   <Command>OEM_MINUS</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_PERIOD</HexCode><Command></Command>
+   <Command>OEM_PERIOD</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>OEM_PLUS</HexCode><Command></Command>
+   <Command>OEM_PLUS</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>PA1</HexCode><Command></Command>
+   <Command>PA1</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>PACKET</HexCode><Command></Command>
+   <Command>PACKET</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>PAUSE</HexCode><Command></Command>
+   <Command>PAUSE</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>PLAY</HexCode><Command></Command>
+   <Command>PLAY</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>PRINT</HexCode><Command></Command>
+   <Command>PRINT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>PRIOR</HexCode><Command></Command>
+   <Command>PRIOR</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>PROCESSKEY</HexCode><Command></Command>
+   <Command>PROCESSKEY</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>RBUTTON</HexCode><Command></Command>
+   <Command>RBUTTON</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>RCONTROL</HexCode><Command></Command>
+   <Command>RCONTROL</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>RETURN</HexCode><Command></Command>
+   <Command>RETURN</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>RIGHT</HexCode><Command></Command>
+   <Command>RIGHT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>RMENU</HexCode><Command></Command>
+   <Command>RMENU</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>RSHIFT</HexCode><Command></Command>
+   <Command>RSHIFT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>RWIN</HexCode><Command></Command>
+   <Command>RWIN</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>SCROLL</HexCode><Command></Command>
+   <Command>SCROLL</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>SELECT</HexCode><Command></Command>
+   <Command>SELECT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>SEPARATOR</HexCode><Command></Command>
+   <Command>SEPARATOR</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>SHIFT</HexCode><Command></Command>
+   <Command>SHIFT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>SLEEP</HexCode><Command></Command>
+   <Command>SLEEP</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>SNAPSHOT</HexCode><Command></Command>
+   <Command>SNAPSHOT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>SPACE</HexCode><Command></Command>
+   <Command>SPACE</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>SUBTRACT</HexCode><Command></Command>
+   <Command>SUBTRACT</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>TAB</HexCode><Command></Command>
+   <Command>TAB</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>UP</HexCode><Command></Command>
+   <Command>UP</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_0</HexCode><Command></Command>
+   <Command>VK_0</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_1</HexCode><Command></Command>
+   <Command>VK_1</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_2</HexCode><Command></Command>
+   <Command>VK_2</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_3</HexCode><Command></Command>
+   <Command>VK_3</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_4</HexCode><Command></Command>
+   <Command>VK_4</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_5</HexCode><Command></Command>
+   <Command>VK_5</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_6</HexCode><Command></Command>
+   <Command>VK_6</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_7</HexCode><Command></Command>
+   <Command>VK_7</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_8</HexCode><Command></Command>
+   <Command>VK_8</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_9</HexCode><Command></Command>
+   <Command>VK_9</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_A</HexCode><Command></Command>
+   <Command>VK_A</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_B</HexCode><Command></Command>
+   <Command>VK_B</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_C</HexCode><Command></Command>
+   <Command>VK_C</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_D</HexCode><Command></Command>
+   <Command>VK_D</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_E</HexCode><Command></Command>
+   <Command>VK_E</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_F</HexCode><Command></Command>
+   <Command>VK_F</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_G</HexCode><Command></Command>
+   <Command>VK_G</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_H</HexCode><Command></Command>
+   <Command>VK_H</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_I</HexCode><Command></Command>
+   <Command>VK_I</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_J</HexCode><Command></Command>
+   <Command>VK_J</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_K</HexCode><Command></Command>
+   <Command>VK_K</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_L</HexCode><Command></Command>
+   <Command>VK_L</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_M</HexCode><Command></Command>
+   <Command>VK_M</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_N</HexCode><Command></Command>
+   <Command>VK_N</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_O</HexCode><Command></Command>
+   <Command>VK_O</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_P</HexCode><Command></Command>
+   <Command>VK_P</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_Q</HexCode><Command></Command>
+   <Command>VK_Q</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_R</HexCode><Command></Command>
+   <Command>VK_R</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_S</HexCode><Command></Command>
+   <Command>VK_S</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_T</HexCode><Command></Command>
+   <Command>VK_T</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_U</HexCode><Command></Command>
+   <Command>VK_U</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_V</HexCode><Command></Command>
+   <Command>VK_V</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_W</HexCode><Command></Command>
+   <Command>VK_W</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_X</HexCode><Command></Command>
+   <Command>VK_X</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_Y</HexCode><Command></Command>
+   <Command>VK_Y</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VK_Z</HexCode><Command></Command>
-  </IrCode>
+   <Command>VK_Z</Command><HexCode></HexCode>
+  </IrCode>-->
   <IrCode>
-    <HexCode>VOLUME_DOWN</HexCode><Command></Command>
+   <Command>VOLUME_DOWN</Command><HexCode>20238C7</HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VOLUME_MUTE</HexCode><Command></Command>
+   <Command>VOLUME_MUTE</Command><HexCode>202F00F</HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>VOLUME_UP</HexCode><Command></Command>
+   <Command>VOLUME_UP</Command><HexCode>202A857</HexCode>
   </IrCode>
-  <IrCode>
-    <HexCode>XBUTTON1</HexCode><Command></Command>
+  <!--<IrCode>
+   <Command>XBUTTON1</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>XBUTTON2</HexCode><Command></Command>
+   <Command>XBUTTON2</Command><HexCode></HexCode>
   </IrCode>
   <IrCode>
-    <HexCode>ZOOM</HexCode><Command></Command>
-  </IrCode>
+   <Command>ZOOM</Command><HexCode></HexCode>
+  </IrCode>-->
 </ArrayOfIrCode>
